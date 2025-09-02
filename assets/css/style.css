@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
 }
 
 .header {
@@ -15,13 +16,16 @@ body {
 }
 
 .logo {
-  height: 50px; 
+  height: 50px;
   width: auto;
   transition: transform 0.3s ease;
 }
 
 .logo:hover {
   transform: scale(1.05);
+  background: #000;
+  border: 1px solid #000;
+  display: flex;
 }
 
 .navbar-nav .nav-link {
@@ -31,21 +35,25 @@ body {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  color: #e7257d; 
+  color: #e7257d;
 }
 
 .hero-gradient {
   background: linear-gradient(rgba(236, 65, 208, 0.75), rgba(42, 72, 206, 0.75)),
-    url('https://www.patrimoniocultural.gob.cl/sites/www.patrimoniocultural.gob.cl/files/styles/16x9_grande/public/2022-09/FOTO%202_.jpg?h=e72b5b4a&itok=pEGTH2Du') no-repeat center center;
+    url("https://www.patrimoniocultural.gob.cl/sites/www.patrimoniocultural.gob.cl/files/styles/16x9_grande/public/2022-09/FOTO%202_.jpg?h=e72b5b4a&itok=pEGTH2Du")
+      no-repeat center center;
   background-size: cover;
-  min-height: 85vh; 
-  padding: 32px 0;   /* 2rem → 32px */
+  min-height: 85vh;
+  padding: 32px 0; /* 2rem → 32px */
 }
 
 .page-title-section {
-    background: linear-gradient(rgba(42, 72, 206, 0.75), rgba(236, 65, 208, 0.75));
-    min-height: 40vh;
-    padding: 32px 0;   /* 2rem → 32px */
+  background: linear-gradient(
+    rgba(42, 72, 206, 0.75),
+    rgba(236, 65, 208, 0.75)
+  );
+  min-height: 40vh;
+  padding: 32px 0; /* 2rem → 32px */
 }
 
 .btn-primary {
@@ -76,7 +84,7 @@ body {
 .features .card:hover,
 .features-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.1);  /* 1rem = 16px, 3rem = 48px */
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.1); /* 1rem = 16px, 3rem = 48px */
 }
 
 .feature-icon img {
@@ -88,7 +96,7 @@ body {
 .cta {
   background-color: #ff69b4;
   color: #fff;
-  padding: 64px 16px;   /* 4rem = 64px, 1rem = 16px */
+  padding: 64px 16px; /* 4rem = 64px, 1rem = 16px */
 }
 
 .cta .btn-light {
@@ -99,5 +107,5 @@ body {
 
 .page-title-section h1,
 .page-title-section p {
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
 }
